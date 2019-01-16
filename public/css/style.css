@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+nav {
+    height: 150px;
+    line-height: 26px;
+    border-bottom: 15px solid #f2e500;
+    background-color: #222222;
+}
+
+nav .nav-wrapper i {
+    height: 26px;
+    line-height: 26px;
+}
+
+nav .brand-logo {
+    margin-top: 25px;
+}
+
+nav ul {
+    text-transform: uppercase;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 600;
+    margin-top: 55px;
+}
+
+nav .input-field label i {
+    color: #f2e500;
+}
+
+nav form {
+    border-left: 1px solid;
+}
+
+.nav-wrapper .input-field input[type=search] {
+    height: 26px;
+    margin-bottom: 0;
+}
+
+nav a.sidenav-trigger {
+    margin-top: 36px;
+    height: 64px;
+    line-height: 64px;
+}
+
+nav a.sidenav-trigger i {
+    font-size: 64px;
+    height: 64px;
+    line-height: 64px;
+}
+
+.no-mb {
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    footer {
+        align-items: center;
+        text-align: center;
+    }
+
+    .no-mt-sm {
+        margin-top: 0;
+    }
+}
+
+footer a {
+    color: #fff;
+}
+
+footer i {
+    color: #f2e500;
+}
+
+.page-footer {
+    background-color: #222222;
+}
+
+.page-footer .footer-copyright {
+    background-color: #222222;
+}
+
+footer h6 {
+    text-transform: uppercase;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 600;
+    color: #f2e500;
+}
+
+.page-footer .footer-copyright {
+    min-height: 32px;
+    padding: 5px 0;
+    color: #fff;
+
+}
